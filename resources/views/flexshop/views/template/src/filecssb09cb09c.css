@@ -1,0 +1,345 @@
+/*Left menu*/
+.left-menu {
+	border: 1px solid #ddd;
+	padding: 5px 0;
+}
+.box-search-inner {
+	background: #f6f6f6;
+	padding: 21px;
+}
+.box-search-inner > p {
+	text-transform: uppercase;
+	font-size: 19px;
+}
+.search-query-inner {
+	border: 1px solid #ddd;
+	padding: 6px;
+	width: 100%;
+}
+.box-search-inner form.navbar-form.navbar-search {
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+button.btn.icon-search-inner {
+	position: absolute;
+	top: 0;
+	right: 0;
+	background: transparent;
+	border-left: 1px solid #ddd;
+}
+ul.list-cate-banner .item-sub-cat {
+	position: relative;
+}
+ul.list-cate-banner .item-sub-cat em {
+	position: absolute;
+	right: 17px;
+	top: 11px;
+}
+.banner a {
+	display: inline-block;
+	overflow: hidden;
+	position: relative;
+	vertical-align: top;
+}.banner a:before {
+	border-color: #000 transparent transparent;
+	border-style: solid;
+	border-width: 0;
+	content: "";
+	height: 0;
+	left: 0;
+	opacity: 0.2;
+	position: absolute;
+	top: 0;
+	transition: all 0.5s ease-in-out;
+	width: 0;
+}.banner a:after {
+	border-color: transparent transparent #000;
+	border-style: solid;
+	border-width: 0;
+	bottom: 0;
+	content: "";
+	height: 0;
+	opacity: 0.2;
+	position: absolute;
+	right: 0;
+	transition: all 0.5s ease-in-out;
+	width: 0;
+}
+.banner a:hover:before {
+	border-width: 1150px 680px 0 0;
+	transition: all 0.3s ease-in-out;
+}
+.banner a:hover:after {
+	border-width: 0 0 1150px 680px;
+	transition: all 0.3s ease-in-out;
+}
+.banner {
+	margin: 26px 0;
+}
+.title-collection-menu-l {
+	font-size: 19px;
+	text-align: center;
+	background: #3ab54a;
+	color: #fff;
+	font-weight: bold;
+	margin: 10px 0;
+	line-height: 38px;
+}
+/*Trang product*/
+.image.large-image {
+	border: 1px solid #ddd;
+}
+.image-additional a {
+	display: inline-block;
+	padding: 5px;
+	border: 1px solid #ddd;
+}
+h1.name_product {
+	margin: 0;
+	font-size: 27px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+	border-bottom: 1px solid #ddd;
+	padding-bottom: 10px;
+}
+.title-bl,#bizweb-product-reviews #bizweb-product-reviews-sub .bizweb-product-reviews-summary .bpr-summary .bpr-summary-average {
+	display: none !important;
+}
+#bizweb-product-reviews #bizweb-product-reviews-sub .bizweb-product-reviews-summary .bpr-summary-caption {
+	display: table-cell !important;
+}
+#btnnewreview {
+	margin: 0 !important;
+	background: transparent !important;
+	color: #666 !important;
+	float: left !important;
+}
+#bizweb-product-reviews #bizweb-product-reviews-sub .product-reviews-summary-actions {
+	float: left !important;
+}
+.giasp {
+	color: #f48549;
+	font-weight: bold;
+	font-size: 27px;
+}
+.tinhtrang {
+	text-align: right;
+}
+ul.tinhtrang li span {
+	color: #000;
+}
+ul.tinhtrang {
+	margin: 0;
+	line-height: 30px;
+	font-size: 12px;
+	color: #00abf0;
+}
+input.soluong {
+	height: 40px;
+	padding: 8px;
+	width: 50px;
+}
+.tieude_motanganproduct {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 16px;
+	margin-top: 8px;
+}
+.share {
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+form#add-to-cart-form {
+	padding-bottom: 11px;
+}
+.than_motanganproduct {
+	font-size: 15px;
+	color: #666;
+}
+.motanganproduct {
+	margin-bottom: 15px;
+}
+button.btn.muahang.btn-cart {
+	background: #3ab54a;
+	color: #fff;
+	border-radius: 0;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+span.strike.compare-price {
+	font-size: 16px;
+	color: #999;
+	text-decoration: line-through;
+}
+.tabthongtinchitiet {
+	border: 1px solid #ddd !important;
+	margin-top:10px;
+}
+.tabs-title {
+	border-bottom: 3px solid #3ab54a !important;
+	padding: 5px 0;
+}
+.tabs-title .nav > li {
+	margin: 0;
+}
+.tabs-title.nav-tabs > li > a,.tabs-title.nav-tabs>li.active>a:focus,.tabs-title.nav-tabs>li.active>a:hover{
+	border: 0 !important;
+	text-transform: uppercase ;
+	font-weight: bold ;
+	color: #3ab54a ;
+	font-size: 17px ;
+	line-height: 10px ;
+	border-right: 1px solid #ddd !important;
+}
+.tab-content.tab-body {
+	padding: 20px;
+}
+/*Blog*/
+
+.col-post ul.post-menu li
+{
+	border-bottom:1px dotted #eee;
+	padding:3px 5px 5px;
+}
+.col-post ul.post-menu li a 
+{
+	color:#444;
+}
+.col-post ul.post-menu li a:hover
+{
+	color:#4DC7EC;
+	text-decoration:none;
+}
+.col-post .post-menu b 
+{
+	font-size:12px;
+	color:#555;
+}
+.col-post p 
+{
+	font-size:12px;
+	color:#444;
+}
+.col-post ul.tags a 
+{
+	background:#eee;
+	display:inline-block;
+	padding:5px 10px;
+	margin-top:10px;
+}
+.col-post ul.tags a:hover
+{
+	text-decoration:none;
+	background:#4DC7EC; 
+	color:#fff;
+}
+.col-post .tags li a 
+{
+	float:left;
+	margin:0 5px 7px 0;
+	color:#444;
+
+}
+.col-post .modtitle {
+	font-size: 20px;
+}
+ul.post-menu {
+	border: 1px solid #ddd;
+	padding: 15px;
+}
+h3.title-article-inner {
+	margin: 0;
+	font-weight: bold;
+	text-transform: Capitalize;
+}
+h3.title-article-inner a {
+	color: #000;
+}
+.post-detail {
+	font-size: 11px;
+	color: #888;
+	margin: 8px 0;
+}
+.post-detail b 
+{
+	color:#444;
+}
+.post-detail a 
+{
+	color:#4DC7EC;
+}
+.post-detail a:hover
+{
+	text-decoration:none;
+	color:#444;
+}
+.box-article-item {
+	margin-bottom: 30px;
+}
+.tabs-title.nav-tabs > li.active > a,.tabs-title.nav-tabs > li:hover > a {
+	color: #095614 !important;
+}
+.detailcall {
+	height: 50px;
+	margin: 20px 0;
+}
+.callphoneicon {
+	float: left;
+	width: 50px;
+	height: 50px;
+	line-height: 57px;
+	text-align: center;
+	color: #3ab54a;
+	border: 2px solid #3ab54a;
+	border-radius: 100%;
+}
+.detailcall a {
+	display: block;
+	padding-left: 55px;
+	color: #252525;
+	font-size: 15px;
+	text-align: left;
+	line-height: 20px;
+	text-transform: Capitalize;
+}
+.callphoneicon i {
+	font-size: 26px;
+	margin-top: 7px;
+}
+.detailcall a span {
+	font-size: 29px;
+	color: #fe4200;
+	font-weight: bold;
+	line-height: 24px;
+}
+@media screen and (max-width:690px){
+	h1.name_product {
+		margin: 0;
+		font-size: 20px;
+		font-weight: bold;
+		text-transform: uppercase;
+		margin: 15px 0 0;
+	}
+}
+
+button.btn.muahang.btn-cart {
+	background: #3ab54a;
+    color: #fff;
+    border-radius: 0;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 2px 65px 8px 65px;
+    height: 40px;
+    margin-top: -2px;
+    line-height: 14px;
+	padding-top:5px;
+	font-size: 18px;
+}
+button.btn.muahang.btn-cart span {
+	text-transform: none;
+    font-size: 12px;
+    font-weight: normal;
+}
+.image-additional{margin-top:10px;}
