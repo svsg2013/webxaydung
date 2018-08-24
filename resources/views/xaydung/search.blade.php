@@ -4,7 +4,11 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
-          {!! $thisSearch !!}
+         @if(!empty($thisSearch))
+            {!! $thisSearch !!}
+           @else
+           <p>Chưa có nội dung</p>
+          @endif
         </div>
         {{--<div class="col-lg-12">--}}
           {{--<div class="pagination">--}}

@@ -34,7 +34,6 @@ class NewsController extends Controller
      */
     public function create()
     {
-
         $getMenu= $this->_news->getDataMenu();
         $getPost= $this->_news->getAll();
         return view('admin.news.create')->with(['getDataMenu'=>$getMenu,'getPosts'=>$getPost]);

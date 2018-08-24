@@ -12,10 +12,6 @@
                         <input class="form-control" type="text" placeholder="Search" aria-describedby="basic-addon1" name="txtSearch">
                     </div>
                 </form>
-
-                </form>
-
-
             </div>
             <div class="header__bottom__menu">
                 <div class="nav-click"></div>
@@ -24,9 +20,9 @@
                         <ul>
                             <li class="current" style="animation-delay: 0ms;"><a class="link-home current" data-name="home-page" href="/">Trang chủ</a></li>
                             <li style="animation-delay: 50ms;"><a class="link-load" data-name="about-page" href="{{route('tinxaydung')}}">Xây dựng</a></li>
-                            <li style="animation-delay: 50ms;"><a class="link-load" data-name="about-page" href="#">Bất động sản</a></li>
+                            <li style="animation-delay: 50ms;"><a class="link-load" data-name="about-page" href="{{route('tinbds')}}">Bất động sản</a></li>
                             <li style="animation-delay: 100ms;"><a class="link-load" data-name="customer-page" href="#">Bảo hiểm</a></li>
-                            <li style="animation-delay: 150ms;"><a class="link-load" data-name="network-page" href="#">Giới thiệu chung</a></li>
+                            <li style="animation-delay: 150ms;"><a class="link-load" data-name="network-page" href="{{url('/gioi-thieu-chung')}}">Giới thiệu chung</a></li>
                             <li style="animation-delay: 200ms;"><a class="link-load" data-name="client-page" href="#">Liên hệ ngay</a></li>
                             <li style="animation-delay: 300ms;"><a class="link-load" data-name="recruitment-page" href="#">Tuyển dụng</a></li>
                         </ul>

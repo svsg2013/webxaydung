@@ -17,6 +17,7 @@ Route::get('/tim-kiem','XaydungController@searchPage')->name('search');
 //frontend xaydung
 Route::get('/','XaydungController@index')->name('homePage');
 Route::get('/tin-xay-dung','XaydungController@tinXaydung')->name('tinxaydung');
+Route::get('/bat-dong-san','XaydungController@tinBDS')->name('tinbds');
 Route::get('/{slugPage}','XaydungController@getPage');
 
 
